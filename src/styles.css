@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    background-color: white;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 40px;
+    margin-right: 2rem;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    /* justify-content: space-around; */
+    flex-grow: 1;
+    gap: 10px;
+  }
+  
+  nav ul li {
+    margin-right: 1rem;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+    color: #ff3f6c;
+  }
+
+  nav ul li .active {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+  }
+  
+  .content {
+    align-content: center;
+    padding-top: 6rem; /* Adjust this value to match the height of your navbar */
+    text-align: center;
+  }
+  
