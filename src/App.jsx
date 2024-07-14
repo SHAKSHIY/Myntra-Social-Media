@@ -51,10 +51,6 @@ function App() {
 }
 
 const Home = () => (
-  // <div>
-  //   <h1>Welcome to Myntra</h1>
-  //   <p>Select a section from the navigation bar.</p>
-  // </div>
   <div>
     <div className="home-container">
     <header className="hero-section">
