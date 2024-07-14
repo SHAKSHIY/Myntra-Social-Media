@@ -1,44 +1,95 @@
 body {
-    background: #fcebeb;
-  }
+  background: #fcebeb;
+  justify-content: center;
+}
+
 .reel-container {
   text-align: center;
   padding: 20px;
-  }
-  
-  .reel {
-    margin: 20px 0;
-    /* position: relative;
-    width: 300px; */
-  }
-  
-  .reel-video {
-    width: 100%;
-    max-width: 600px;
-    /* height: auto; */
-  }
-  
-  .shop-button {
-    display: inline-block;
+}
+
+.section-title {
+  color: #ff4081;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.k{
+  color: #ff4081;
+}
+
+.scrollable-container {
+  background-color: #fadae5;
+  padding-top: 20px;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin: 0 -10px; /* Adjust margins to fit your design */
+  padding-bottom: 20px; /* Add padding for bottom space */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 450px;
+}
+
+.reels-list {
+  display: grid;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.reel {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding-bottom: 5px;
+  margin: 10px 10px; /* Adjust margins to fit your design */
+}
+
+.reel-video-container {
+  position: relative;
+  padding-top: 3.25%; /* 16:9 aspect ratio */
+  padding-left: 3.25%;
+  padding-right: 3.25%;
+  padding-bottom: 3.25%;
+}
+
+.reel-video {
+  width: 100%;
+  max-width: 600px;
+}
+
+.reel-details {
+  padding: 10px 20px;
+}
+
+.reel-title {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.reel-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  color: #666;
+}
+
+.shop-button {
+  display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
   background-color: #ff4081;
   color: white;
   text-decoration: none;
   border-radius: 5px;
-    /* position: absolute;
-    bottom: 10px;
-    right: 10px;
-    display: inline-block;
-  margin-top: 10px;
-    padding: 10px 20px;
-    background-color: #ff4081;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px; */
-  }
-  
-  .shop-button:hover {
-    background-color: #e73370;
-  }
-  
+}
+
+.shop-button:hover {
+  background-color: #e73370;
+}

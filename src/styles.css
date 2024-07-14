@@ -78,8 +78,8 @@
   
   .home-container {
     text-align: center;
-    width: 150%;
-    max-width: 1519px;
+    width: 100%;
+    max-width: 1330px;
     padding: 20px;
     background: white;
     border-radius: 10px;
