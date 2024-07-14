@@ -1,0 +1,75 @@
+.influencer-section {
+    padding: 0px;
+    background-color: #fce4ec;
+    width: 121%;
+  }
+  
+  .influencer-section h2 {
+    text-align: center;
+    color: #ff4081;
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+  }
+  
+  .influencer-tagline {
+    text-align: center;
+    color: #666;
+    margin-bottom: 40px;
+    font-size: 1.2rem;
+  }
+  
+  .influencer-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .influencer-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+    transition: transform 0.3s;
+  }
+  
+  .influencer-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .influencer-image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .influencer-card h3 {
+    color: #333;
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .influencer-card p {
+    color: #666;
+    font-size: 1rem;
+  }
+  
+  .follow-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .follow-button:hover {
+    background-color: #e33670;
+  }
+  
